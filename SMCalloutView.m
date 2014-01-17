@@ -524,6 +524,7 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
 - (void)rebuildSubviews {
     // remove and re-add our appropriate subviews in the appropriate order
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    [[self clippedViewOrDefault].subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [self setNeedsDisplay];
     
     [self addSubview:self.backgroundView];
