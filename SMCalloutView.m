@@ -44,7 +44,7 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
 #define SUBTITLE_HEIGHT 16 // subtitle height, fixed
 #define ACCESSORY_HEIGHT 32 // the "suggested" maximum height of an accessory view. shorter accessories will be vertically centered
 #define BETWEEN_ACCESSORIES_MARGIN 7 // if we have no title or subtitle, but have two accessory views, then this is the space between them
-#define TOP_ANCHOR_MARGIN 13 // all the above measurements assume a bottom anchor! if we're pointing "up" we'll need to add this top margin to everything.
+#define TOP_ANCHOR_MARGIN 7 // all the above measurements assume a bottom anchor! if we're pointing "up" we'll need to add this top margin to everything.
 #define REPOSITION_MARGIN 10 // when we try to reposition content to be visible, we'll consider this margin around your target rect
 
 #define OFFSET_FROM_ORIGIN 5 // distance to offset vertically from the rect origin of the callout
